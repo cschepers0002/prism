@@ -1,43 +1,71 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Home</title>
-<link href="v2stylessheets.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link href="v2stylessheets.css" rel="stylesheet" type="text/css">
+	<!-- RESPONSIVE CODE -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--You need this link for the hamburger menu-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<h1><a href="index.html"><img id="logo" src="logo.png" alt="Prism Photography" title="Prism Photography"></h1>
-	
-<div class="topnav" id="myTopnav">
-     <a href="index.html">Home</a>
-     <a href="about.html">About</a>
-     <a href="port.html">Portfolio</a>
-     <a href="contact.html">Contact</a>
-	<a href="test.html">Testimonials</a>
-	</div>
-<div class="hero">
-<div class="hero-text"> 
-	<h2><b> MISSION STATEMENT</b></h2><p>Our goal as a company is to establish an environment where confidence and creativity can merge to create beautiful art. The traditional media of studio photography blended with modern social media influences. We believe that the art of makeup, fashion, and hair goes hand in hand with photography and should help showcase the perfections of each genre. We strive to keep our creative integrity while pushing our artistic boundaries.</p></div>
-	<img src="hero.png" alt="img1" style="width:100%">
-	</div>
-<div class="footerimg">
-<div class="footerimg-text"> 
-	<h2><b>FOLLOW US</b></h2><p>INSTAGRAM: @PRISMPHOTOGRAPHY<br>
-TWITTER: @PRISM_PHOTO<br>
-FACEBOOK: PRISM PHOTOGRAPHY<br>
-TIK TOK: @PRISM_PHOTO<br>
-</p></div>
-	<img src="footerimg.png" alt="img2" style="width:100%">
-	</div>	
-	<footer>
-          <p>Charlotte Schepers Graphic Design</p><p>&copy; 2021 Prism Photography | <a href="#">Back to Top</a></p>
-        </footer>
+	<h1>
+		<a href="index.html">
+			<img id="logo" src="logo.png" alt="Prism Photography">
+		</a>
+	</h1>
 
-	
-	
+ 	<!-- Navigation with hamburger menu when mobile -->
+	<div class="topnav" id="myTopnav">
+	     <a href="index.html">Home</a>
+	     <a href="about.html">About</a>
+	     <a href="port.html">Portfolio</a>
+	     <a href="contact.html">Contact</a>
+		<a href="test.html">Testimonials</a>
+		<!-- Dont change the link below -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+	</div>
+	<div class="hero">
+
+		<!-- <img src="hero.png" alt="img1" style="width:100%"> -->
+	</div>
+	<div class="hero-text">
+		<h2> MISSION STATEMENT</h2>
+		<p>Our goal as a company is to establish an environment where confidence and creativity can merge to create beautiful art. The traditional media of studio photography blended with modern social media influences. We believe that the art of makeup, fashion, and hair goes hand in hand with photography and should help showcase the perfections of each genre. We strive to keep our creative integrity while pushing our artistic boundaries.</p>
+	</div>
+	<div class="footerimg">
+		<div class="footerimg-text">
+			<h2><b>FOLLOW US</b></h2><p>INSTAGRAM: @PRISMPHOTOGRAPHY<br>
+			TWITTER: @PRISM_PHOTO<br>
+			FACEBOOK: PRISM PHOTOGRAPHY<br>
+			TIK TOK: @PRISM_PHOTO<br>
+			</p>
+		</div>
+		<img src="footerimg.png" alt="img2" style="width:100%">
+	</div>
+		<footer>
+	      <p>Charlotte Schepers Graphic Design</p><p>&copy; 2021 Prism Photography | <a href="#">Back to Top</a></p>
+	    </footer>
+
+		<!--  Don't Touch Javascript below
+	     This needs to be on every HTML document  -->
+	     <script>
+	       function myFunction() {
+	         var x = document.getElementById("myTopnav");
+	         if (x.className === "topnav") {
+	           x.className += " responsive";
+	         } else {
+	           x.className = "topnav";
+	         }
+	       }
+	     </script>
+
+
 	</body>
 
 </html>
