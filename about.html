@@ -1,45 +1,81 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>About</title>
+	<meta charset="utf-8">
+	<title>About</title>
 <link href="v2stylessheets.css" rel="stylesheet" type="text/css">
+	<!-- Responsive Code -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--You need this link for the hamburger menu-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
-	<body>
+<body>
 
-<h1><a href="index.html"><img id="logo" src="logo.png" alt="Prism Photography" title="Prism Photography"></h1>
-	
+	<h1>
+		<a href="index.html">
+			<img id="logo" src="logo.png" alt="Prism Photography" title="Prism Photography">
+		</a>
+	</h1>
+
+	<!-- Navigation with hamburger menu when mobile -->
 <div class="topnav" id="myTopnav">
      <a href="index.html">Home</a>
      <a href="about.html">About</a>
      <a href="port.html">Portfolio</a>
      <a href="contact.html">Contact</a>
 	<a href="test.html">Testimonials</a>
-	</div>
+		<!-- Dont change the link below -->
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+</div>
+
 <div class="abouthero">
 	<img src="about.png" alt="img1" style="width:100%"></div><br>
+
 <div class="headline"><img src="headline1.png" alt="img2"></div>
+
 <div class="staff">
-<div class="staff-text1"> 
-	 <h2><b> ARIA GRETHER</b></h2><p>Aria Grether is the head of the hair department for Prism Photography. She plans all hairstyles to blend perfectly with make-up and clothing. Aria has worked with all hair types but specializes in African hair types. She believes the power of a single braid can change the tone of a model’s hair. 
-</p></div>
+	<div class="staff-text1">
+		 <h2><b> ARIA GRETHER</b></h2><p>Aria Grether is the head of the hair department for Prism Photography. She plans all hairstyles to blend perfectly with make-up and clothing. Aria has worked with all hair types but specializes in African hair types. She believes the power of a single braid can change the tone of a model’s hair.
+	</p>
+	</div>
 	<div class="staff-text2">
-	<h2><b>SHANNON MOBLEY</b></h2><p>Shannon first discovered her love for makeup at the age of eleven. Her love for makeup spans from the drugstore to the professional make-up counter. She believes, as well as Prism Photography, every individual of any sex or gender deserves to experience the artistry and confidence of makeup. 
-</p></div>
-	
+		<h2><b>SHANNON MOBLEY</b></h2><p>Shannon first discovered her love for makeup at the age of eleven. Her love for makeup spans from the drugstore to the professional make-up counter. She believes, as well as Prism Photography, every individual of any sex or gender deserves to experience the artistry and confidence of makeup.
+	</p>
+	</div>
+
 	</div>
 	<div class="staff-text3">
-	<h2><b>ADAM BAKER</b></h2><p>Often what draws your eyes first in a photo is the outfit. It can immediately dictate the mood of an image. Adam understands the power he has as lead stylist for the Prism team. He draws inspiration from New York Fashion Week along with 70’s fashion trends. Adam studied at Fashion Institute of Technology for several years before becoming a professor at his alma mater.
- </p></div>
+		<h2><b>ADAM BAKER</b></h2><p>Often what draws your eyes first in a photo is the outfit. It can immediately dictate the mood of an image. Adam understands the power he has as lead stylist for the Prism team. He draws inspiration from New York Fashion Week along with 70’s fashion trends. Adam studied at Fashion Institute of Technology for several years before becoming a professor at his alma mater.
+	</p
+	></div>
+
 	<div class="staff-img">
-		<img src="workers.png" alt="img3" style="width:100%"></div>
-	
+	<img src="workers.png" alt="img3" style="width:100%">
+	</div>
+
 
 	<footer>
-          <p>Charlotte Schepers Graphic Design</p><p>&copy; 2021 Prism Photography | <a href="#">Back to Top</a></p>
-        </footer>
+      <p>Charlotte Schepers Graphic Design</p><p>&copy; 2021 Prism Photography | <a href="#">Back to Top</a></p>
+  </footer>
 
-</body>
+	<!--  Don't Touch Javascript below
+		 This needs to be on every HTML document  -->
+		 <script>
+			 function myFunction() {
+				 var x = document.getElementById("myTopnav");
+				 if (x.className === "topnav") {
+					 x.className += " responsive";
+				 } else {
+					 x.className = "topnav";
+				 }
+			 }
+		 </script>
+
+
+	 </body>
+
 </html>
