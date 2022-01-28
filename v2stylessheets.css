@@ -23,37 +23,6 @@ body{
 }
 
 
-.abouthero {
-	  height: 50vh;
-}
-
-
-
-#logo {
-    /* ------ Max width to keep logo image from being larger than intended ------ */
-    max-width: 50%;
-    margin: auto;
-    display: block;
-}
-
-.hero{
-    /* Background image of yellow jacket lady */
-
-    background-image: url("images/woman-2.png"), url("images/woman-1.png");
-    /* woman-1 is yellow jacket, woman-2 is looking up */
-    background-size: 400px, 300px, contain;
-    background-repeat:no-repeat;
-    background-position: bottom left, bottom right;
-    /* background color that will show if the lady image doesn't */
-    background-color: #e9e6e7;
-
-    /* Percentage of the viewport height below can change */
-    height: 40vh;
-    min-height:400px;
-
-}
-
-
 h2 {
 	font-family: "Century Gothic", "sans-serif";
 	color: black;
@@ -71,6 +40,37 @@ p {
 }
 
 
+#logo {
+    /* ------ Max width to keep logo image from being larger than intended ------ */
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
+
+/* INDEX HERO ----------------------- */
+.hero{
+    /* Background image of yellow jacket lady */
+
+    background-image: url("images/woman-2.png"), url("images/woman-1.png");
+    /* woman-1 is yellow jacket, woman-2 is looking up */
+    background-size: 400px, 300px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right;
+    /* background color that will show if the lady image doesn't */
+    background-color: #e9e6e7;
+
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+
+}
+
+/* ABOUT HERO ----------------------- */
+.abouthero {
+	  height: 50vh;
+}
+
+/* ALL HERO STUFF ----------------------- */
 .hero-text {
   text-align: center;
   color: black;
@@ -87,12 +87,19 @@ p {
 
 }
 
+/* END HEROS ----------------------- */
+
+
+
+
+
 .headline {
 	text-align: center;
 	margin-top: 300px;
 
 }
 
+/* ABOUT PAGE ----------------------- */
 .staff-img {
 	text-align: center;
 	margin-top: 10px;
@@ -108,8 +115,8 @@ p {
 }
 
 .staff-text1 h2{
-    font-size:1.4em;
-    margin-bottom: 0;
+  font-size:1.4em;
+  margin-bottom: 0;
 	width: 224px;
 	height: 27px;
 	text-align: left;
@@ -185,6 +192,18 @@ width: 818px;
 
 }
 
+/* END ABOUT PAGE ----------------------- */
+footer{
+    text-align: center;
+    background-color: white;
+    padding:5px 0;
+    color: black;
+
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
 
 .footerimg-text {
   text-align: center;
@@ -210,13 +229,11 @@ width: 818px;
 }
 
 
-
 .header {
   text-align: center;
   font-size: 15px;
   padding: 0px;
 }
-
 
 
 
@@ -293,24 +310,13 @@ width: 818px;
 	margin-left: 50px;
 }
 
-footer{
-    text-align: center;
-    background-color: white;
-    padding:5px 0;
-    color: black;
-
-}
-footer a{
-    color: black;
-    text-decoration: none;
-}
 
 
 @media screen and (min-width:600px) {
   .hero{
       /* Background image of yellow jacket lady */
       background-image: url("images/woman-2.png"), url("images/woman-1.png");
-      
+
       /* woman-1 is yellow jacket, woman-2 is looking up */
       background-size: contain;
       background-repeat: no-repeat, no-repeat;
