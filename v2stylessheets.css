@@ -310,6 +310,7 @@ footer a{
   .hero{
       /* Background image of yellow jacket lady */
       background-image: url("images/woman-2.png"), url("images/woman-1.png");
+      
       /* woman-1 is yellow jacket, woman-2 is looking up */
       background-size: contain;
       background-repeat: no-repeat, no-repeat;
