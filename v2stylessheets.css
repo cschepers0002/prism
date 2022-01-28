@@ -38,12 +38,14 @@ body{
 
 .hero{
     /* Background image of yellow jacket lady */
+    background-image: url("images/woman-1.png");
     /* background color that will show if the lady image doesn't */
     background-color: #e9e6e7;
 
     /* Percentage of the viewport height below can change */
     height: 50vh;
     min-height:400px;
+
 }
 
 
