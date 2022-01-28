@@ -1,13 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* @font-face {
-  font-family: 'Ikaros-Light';
-  src: url('Ikaros-Light.otf');
-}
+
 @font-face {
-  font-family: 'Ikaros-Regular';
-  src: url('Ikaros-Regular.otf');
+  font-family: 'Gothic';
+  src: url('GOTHIC.ttf');
 } */
 
 body{
@@ -310,7 +307,7 @@ footer a{
   .hero{
       /* Background image of yellow jacket lady */
       background-image: url("images/woman-2.png"), url("images/woman-1.png");
-      
+
       /* woman-1 is yellow jacket, woman-2 is looking up */
       background-size: contain;
       background-repeat: no-repeat, no-repeat;
