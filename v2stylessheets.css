@@ -1,14 +1,8 @@
 @charset "utf-8";
-/* CSS Document */
-
-/* @font-face {
-  font-family: 'Ikaros-Light';
-  src: url('Ikaros-Light.otf');
-}
 @font-face {
-  font-family: 'Ikaros-Regular';
-  src: url('Ikaros-Regular.otf');
-} */
+  font-family: 'Gothic';
+  src: url('GOTHIC.ttf');
+}
 
 body{
   background: white;
@@ -22,6 +16,36 @@ body{
   box-sizing: border-box;
 }
 
+
+.abouthero {
+	  height: 50vh;
+}
+
+
+
+#logo {
+    /* ------ Max width to keep logo image from being larger than intended ------ */
+    max-width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.hero{
+    /* Background image of yellow jacket lady */
+
+    background-image: url("images/woman-2.png"), url("images/woman-1.png");
+    /* woman-1 is yellow jacket, woman-2 is looking up */
+    background-size: 400px, 300px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right;
+    /* background color that will show if the lady image doesn't */
+    background-color: #e9e6e7;
+
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+
+}
 
 h2 {
 	font-family: "Century Gothic", "sans-serif";
@@ -40,37 +64,6 @@ p {
 }
 
 
-#logo {
-    /* ------ Max width to keep logo image from being larger than intended ------ */
-    max-width: 50%;
-    margin: auto;
-    display: block;
-}
-
-/* INDEX HERO ----------------------- */
-.hero{
-    /* Background image of yellow jacket lady */
-
-    background-image: url("images/woman-2.png"), url("images/woman-1.png");
-    /* woman-1 is yellow jacket, woman-2 is looking up */
-    background-size: 400px, 300px, contain;
-    background-repeat:no-repeat;
-    background-position: bottom left, bottom right;
-    /* background color that will show if the lady image doesn't */
-    background-color: #e9e6e7;
-
-    /* Percentage of the viewport height below can change */
-    height: 40vh;
-    min-height:400px;
-
-}
-
-/* ABOUT HERO ----------------------- */
-.abouthero {
-	  height: 50vh;
-}
-
-/* ALL HERO STUFF ----------------------- */
 .hero-text {
   text-align: center;
   color: black;
@@ -87,19 +80,12 @@ p {
 
 }
 
-/* END HEROS ----------------------- */
-
-
-
-
-
 .headline {
 	text-align: center;
 	margin-top: 300px;
 
 }
 
-/* ABOUT PAGE ----------------------- */
 .staff-img {
 	text-align: center;
 	margin-top: 10px;
@@ -115,8 +101,8 @@ p {
 }
 
 .staff-text1 h2{
-  font-size:1.4em;
-  margin-bottom: 0;
+    font-size:1.4em;
+    margin-bottom: 0;
 	width: 224px;
 	height: 27px;
 	text-align: left;
@@ -192,18 +178,6 @@ width: 818px;
 
 }
 
-/* END ABOUT PAGE ----------------------- */
-footer{
-    text-align: center;
-    background-color: white;
-    padding:5px 0;
-    color: black;
-
-}
-footer a{
-    color: black;
-    text-decoration: none;
-}
 
 .footerimg-text {
   text-align: center;
@@ -229,11 +203,13 @@ footer a{
 }
 
 
+
 .header {
   text-align: center;
   font-size: 15px;
   padding: 0px;
 }
+
 
 
 
@@ -310,89 +286,80 @@ footer a{
 	margin-left: 50px;
 }
 
+footer{
+    text-align: center;
+    background-color: white;
+    padding:5px 0;
+    color: black;
 
-
-@media screen and (min-width:600px) {
-  .hero{
-      /* Background image of yellow jacket lady */
-      background-image: url("images/woman-2.png"), url("images/woman-1.png");
-
-      /* woman-1 is yellow jacket, woman-2 is looking up */
-      background-size: contain;
-      background-repeat: no-repeat, no-repeat;
-      background-position: bottom left, bottom right;
-      /* background color that will show if the lady image doesn't */
-      background-color: #e9e6e7;
-
-      /* Percentage of the viewport height below can change */
-      height: 50vh;
-      min-height:400px;
-
-  }
 }
-
-
+footer a{
+    color: black;
+    text-decoration: none;
+}
 
 
 /* --------
 MOBILE NAV STYLES
 -------- */
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-
-  .topnav.responsive {
-    position: relative;
-    text-align:center;
-  }
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-/* -----------
-END TOP NAV MOBILE Styles
--------------- */
-
-/* These styles are for background color to the top navigation */
 .topnav {
-    /* color bar */
- background-color: white;
- overflow: hidden;
- text-align: center;
+	overflow: hidden;
+	/* background-color:rgba(40,40,40,.7); */
 }
-
-/* These styles are for the links inside the navigation bar */
 .topnav a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.5em;
-    /* Leave the styles below alone */
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
+	display: none;
+	color: #666;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.topnav a:hover {
+	/* background-color: #999; */
+	color: black;
+	}
+a.active {
+	display: inline-grid;
+	/* background-color:rgba(40,40,40,.6); */
+	color: black;
+}
+.topnav.responsive {
+  position: relative;
+  z-index: 1;
+}
+.topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+	/* border-bottom:1px solid #000; */
+}
+.topnav a.icon {
+	float: right;
+	display: block;
+    color:black;
+}
+.topnav.responsive .icon {
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
-/* These styles when mouse hovers over links */
-.topnav a:hover {
- background-color: #b3b3b3;
- color: white;
+
+/* DESKTOP STYLES */
+@media only screen and (min-width:600px){
+
+ .topnav{
+      text-align: center;
+      padding:10px 0;
+  }
+  .topnav a {
+      display: inline-grid;
+      grid-auto-flow: column;
+  }
+  .topnav a.icon {
+      display: none;
+  }
+
+
+
+
 }
-/* Leave this alone */
-.topnav .icon {
- display: none;
-}
-/* --------
-END Nav Styles for DESKTOP
--------- */
