@@ -246,31 +246,22 @@ width: 818px;
   color: white;
 }
 
+/* CONTACT  --------------- */
+.contact-hero{
 
-.map {
-	text-align: center;
-	margin-top: -260px;
-	margin-left: 400px;
+    /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
+    background-size: 400px, 300px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right; */
+
+    background-color: #e9e6e7;
+
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+    position: relative;
+
 }
-
-.con-head h2 {
-	font-size: 55px;
-	margin-top: -200px;
-	margin-left: 50px;
-	font-weight: bold;
-
-}
-
-
-
-.con-head1 p {
-	font-size: 25px;
-	width: 407px;
-	height: 78px;
-	text-align: left;
-	margin-left: 50px;
-}
-
 .email p {
 	font-family: Century Gothic, "sans-serif";
 	font-color: blue;
