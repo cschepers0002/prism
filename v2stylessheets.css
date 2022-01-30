@@ -57,6 +57,7 @@ h2 {
 	font-weight: 400;
 	width: 665px;
 	height: 35px;
+  text-align: center;
 }
 
 p {
@@ -64,6 +65,7 @@ p {
 	color: black;
 	font-size: 1.4em;
 	font-weight: 400;
+  text-align: center;
 
 }
 
