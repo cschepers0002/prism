@@ -17,9 +17,9 @@ body{
 }
 
 
-.abouthero {
+/* .abouthero {
 	  height: 50vh;
-}
+} */
 
 
 
@@ -106,97 +106,27 @@ section{
 
 }
 
-.staff-img {
-	text-align: center;
-	margin-top: 10px;
-}
 
-.staff-text1 {
-	 text-align: center;
-  position: absolute;
-  top: 1200px;
-	left: 300px;
-  color: black;
+/* ABOUT  --------------- */
+.about-hero{
 
-}
+     background-image: url("images/camera-arm.gif"), url("images/camera-closeup.gif");
+    background-size: 300px, 500px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right;
 
-.staff-text1 h2{
-    font-size:1.4em;
-    margin-bottom: 0;
-	width: 224px;
-	height: 27px;
-	text-align: left;
+    background-color: #dc9822;
 
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+    position: relative;
 
 }
 
-.staff-text1 p{
-	 font-size: 1em;
-    margin-bottom:5px;
-	width: 545px;
-	height: 135px;
-	text-align: left;
 
 
-}
 
-.staff-text2 {
-	 text-align: center;
-  position: absolute;
-  top: 1600px;
-	left: 275px;
-  color: black;
-
-}
-
-.staff-text2 h2{
-    font-size:1.4em;
-    margin-bottom: 0;
-	width: 307px;
-	height: 26px;
-	text-align: right;
-
-
-}
-
-.staff-text2 p{
-	 font-size: 1em;
-    margin-bottom:5px;
-	width: 558px;
-	height: 139px;
-	text-align: right;
-
-
-}
-
-.staff-text3 {
-	 text-align: center;
-  position: absolute;
-  top: 2000px;
-	left: 350px;
-  color: black;
-
-}
-
-.staff-text3 h2{
-    font-size:1.4em;
-    margin-bottom: 0;
-	width: 211px;
-	height: 25px;
-	text-align: left;
-
-
-}
-
-.staff-text3 p{
-	 font-size: 1em;
-    margin-bottom:5px;
-width: 818px;
-	height: 115px;
-	text-align: left;
-
-
-}
 
 
 .footerimg-text {
