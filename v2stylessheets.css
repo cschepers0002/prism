@@ -127,6 +127,7 @@ section{
 #aria {
   float: left;
   height: 50vh;
+  min-height: 200px;
 }
 
 #shannon {
