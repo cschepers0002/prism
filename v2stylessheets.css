@@ -124,7 +124,20 @@ section{
 
 }
 
+#aria {
+  float: left;
+  height: 50vh;
+}
 
+#shannon {
+  float: right;
+  height: 50vh;
+}
+
+#adam {
+  float: left;
+  height: 50vh;
+}
 
 
 
