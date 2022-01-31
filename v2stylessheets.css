@@ -219,6 +219,24 @@ section{
     position: relative;
 
 }
+
+/* CONTACT  --------------- */
+.test-hero{
+
+    /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
+    background-size: 400px, 300px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right; */
+
+    background-color: #7d4d9f;
+
+    /* Percentage of the viewport height below can change */
+    height: 40vh;
+    min-height:400px;
+    position: relative;
+
+}
+
 .email p {
 	font-family: Century Gothic, "sans-serif";
 	font-color: blue;
