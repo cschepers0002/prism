@@ -50,6 +50,7 @@ h2 {
   text-align: center;
   color: white;
   font-size: 16px;
+  margin: 100px 150px;
 }
 
 p {
@@ -266,7 +267,7 @@ section{
   float: right;
   margin: auto;
   padding: 5px;
-  
+
 }
 
 /**CONACT FORM */
