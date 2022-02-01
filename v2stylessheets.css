@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
   font-family: 'Century Gothic';
-  src: url('GOTHIC.otf');
+  src: url('GOTHIC.otf') format:"opentype");
 }
 
 body{
