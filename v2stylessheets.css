@@ -40,9 +40,10 @@ h2 {
 
 }
 
-#bkgd-headline h1 {
+#bkgd-headline {
   text-align: center;
   color: white;
+  padding: 35px;
 
 }
 
@@ -50,7 +51,7 @@ h2 {
   text-align: center;
   color: white;
   font-size: 16px;
-  margin: 100px 150px;
+  margin: 10px 150px;
 }
 
 p {
@@ -417,7 +418,7 @@ END MOBILE NAV STYLES
 
 
 /* --------
-DESKTOP STYLES 
+DESKTOP STYLES
 -------- */
 @media only screen and (min-width:700px){
 
