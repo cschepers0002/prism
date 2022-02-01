@@ -40,13 +40,13 @@ h2 {
 
 }
 
-#bkgd-headline {
+#bkgd-headline h1 {
   text-align: center;
   color: white;
 
 }
 
-#bkgd-text {
+#bkgd-text p {
   text-align: center;
   color:white;
   font-size: 16px;
