@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
   font-family: 'Century Gothic';
-  src: url('GOTHIC.otf');
+  src: url('GOTHIC.otf') format:"opentype");
 }
 
 body{
@@ -55,9 +55,8 @@ h2 {
 
 p {
 	color: black;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1.5;
-
 }
 
 
@@ -94,8 +93,6 @@ section{
   float: left;
   width: 25%;
   padding: 5px;
-
-
 }
 
 /* Clear floats after image containers */
@@ -111,7 +108,6 @@ section{
   margin-left: auto;
   margin-right: auto;
   width: 20%;
-
 }
 
 .headline {
@@ -249,18 +245,20 @@ section{
 /* CONTACT  --------------- */
 .contact-hero{
 
+    /* background-image: url("images/woman-2.png"), url("images/woman-1.png");
+    background-size: 400px, 300px, contain;
+    background-repeat:no-repeat;
+    background-position: bottom left, bottom right; */
+    background-color: #e9e6e7;
      background-image: url("images/woman-4.gif"), url("images/women-5.gif");
     background-size: 275px, 300px, contain;
     background-repeat:no-repeat;
     background-position: bottom left, bottom right;
-
     background-color: #e9e6e7;
-
     /* Percentage of the viewport height below can change */
     height: 40vh;
     min-height:400px;
     position: relative;
-
 }
 
 #woman-6 {
@@ -311,8 +309,6 @@ border-radius: 4px;
 box-sizing: border-box;
 }
 
-/* END MOBILE FORM STYLES */
-
 
 
 form ul {
@@ -344,7 +340,6 @@ ul {
     position: relative;
 
 }
-
 .email p {
 	font-family: Century Gothic, "sans-serif";
 	font-color: blue;
@@ -363,14 +358,6 @@ footer{
 footer a{
     color: black;
     text-decoration: none;
-}
-
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
 }
 
 
@@ -417,9 +404,21 @@ a.active {
 	right: 0;
 	top: 0;
 }
+/* --------
+END MOBILE NAV STYLES
+-------- */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
 
 
-/* DESKTOP STYLES */
+/* --------
+DESKTOP STYLES 
+-------- */
 @media only screen and (min-width:700px){
 
  .topnav{
@@ -434,7 +433,6 @@ a.active {
       display: none;
   }
 
-
   .hero-text {
       display: block;
       position: absolute;
@@ -442,13 +440,11 @@ a.active {
       width: 40%;
       top:10%;
       left:40%;
-
   }
 
   section{
       width:60%;
       margin: auto;
-
   }
 
 }
