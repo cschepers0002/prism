@@ -40,6 +40,18 @@ h2 {
 
 }
 
+#bkgd-headline {
+  text-align: center;
+  color: white;
+
+}
+
+#bkgd-text {
+  text-align: center;
+  color:white;
+  font-size: 16px;
+}
+
 p {
 	color: black;
     font-size: 16px;
