@@ -15,7 +15,6 @@ for (var i = 0; i < btns.length; i++) {
 <button onclick="two()">2</button>
 <button onclick="four()">4</button>
 
-<script>
 // Get the elements with class="column"
 var elements = document.getElementsByClassName("column");
 
@@ -42,4 +41,3 @@ function four() {
     elements[i].style.flex = "25%";
   }
 }
-</script>
